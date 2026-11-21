@@ -35,7 +35,7 @@
 <body>
 <main>
   <h1>Privacy Policy for MathSurge</h1>
-  <p class="dates">Last updated: November 1, 2026 · Effective: November 1, 2026</p>
+  <p class="dates">Last updated: November 21, 2026 · Effective: November 21, 2026</p>
 
   <p>Thank you for choosing <strong>MathSurge</strong> ("we", "our", or "us"). This Privacy Policy explains how your information is handled when you use the MathSurge mobile application.</p>
 
@@ -45,10 +45,11 @@
     <li>We do <strong>not</strong> require user accounts or registration.</li>
     <li>We do <strong>not</strong> collect or store personal identifiers like your name, email address, phone number, or location on our servers.</li>
     <li>All game progress, personal best scores, XP levels, streaks, and mistake vault records are stored <strong>locally on your device</strong>.</li>
+      <li>When you are online, the app uses the network for ads (section 2), anonymous usage statistics (section 3) and the "More apps" list (section 4).</li>
   </ul>
 
   <h2>2. Information Handled by Third-Party Services (Advertising)</h2>
-  <p>MathSurge uses <strong>Google AdMob</strong> (Google Mobile Ads SDK) to display banner and interstitial advertisements in the application.</p>
+  <p>MathSurge uses <strong>Google AdMob</strong> (Google Mobile Ads SDK) to display banner, interstitial and (only when you choose to watch one) rewarded advertisements in the application.</p>
   <p>Google AdMob may collect and process certain data in accordance with Google's Privacy Policy, including:</p>
   <ul>
     <li><strong>Device identifiers:</strong> IP address, mobile advertising identifier (such as the Android Advertising ID), and device hardware specifications.</li>
@@ -71,7 +72,23 @@
     <li>Tap <strong>Delete advertising ID</strong> or enable <strong>Opt out of Ads Personalization</strong>.</li>
   </ul>
 
-  <h2>3. Purchases (MathSurge Pro)</h2>
+  <h2>3. Usage Statistics (Google Analytics for Firebase)</h2>
+    <p>To learn which features are used, improve the game and decide where ads fit best, the app sends usage events to <strong>Google Analytics for Firebase</strong>:</p>
+    <ul>
+      <li>rounds started and finished (game mode, how the round was started, score, accuracy, number of answers, duration, whether it was a new best)</li>
+      <li>tabs, arenas and drills opened, and whether they were finished</li>
+      <li>ads shown, and the outcome of rewarded ads you chose to watch</li>
+      <li>visits to the MathSurge Pro page and subscriptions bought</li>
+      <li>taps on our other apps (section 4)</li>
+      <li>your app language and whether MathSurge Pro is active</li>
+    </ul>
+    <p>Google also collects an app-instance identifier, device model, operating system, app version, approximate location (country/region derived from IP address) and, where available, the advertising ID. These statistics are not used to identify you, we never send your name, profile names or answers, and Google keeps them for a limited period under the Google Analytics data retention settings.</p>
+    <p>Learn how Google uses this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+    <h2>4. "More apps" List</h2>
+    <p>Once a day the app downloads a list of our other apps from pyush.github.io (hosted by GitHub, which receives your IP address as part of the request). The app checks on your device which of those apps are already installed, to open them directly instead of their Play page; this check never leaves your device. Tapping an app opens its Google Play page.</p>
+
+    <h2>5. Purchases (MathSurge Pro)</h2>
   <p>MathSurge Pro is an optional subscription sold through <strong>Google Play Billing</strong>. See our <a href="terms.html">Terms of Use</a> for how plans, renewal and cancellation work.</p>
   <ul>
     <li><strong>Payments are handled by Google.</strong> Your card, UPI or other payment details are entered in Google Play and are never seen or stored by MathSurge.</li>
@@ -80,19 +97,19 @@
     <li>Google processes your purchase under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a>.</li>
   </ul>
 
-  <h2>4. Data Storage &amp; Deletion</h2>
+  <h2>6. Data Storage &amp; Deletion</h2>
   <ul>
     <li><strong>Local device storage:</strong> All gameplay history, question splits, and custom configurations remain within the app's local storage on your device.</li>
     <li><strong>Data deletion:</strong> You can delete all locally stored game data at any time via <strong>Settings › Data Management › Reset All Progress</strong> in the app, or by clearing the app's storage in Android Settings.</li>
   </ul>
 
-  <h2>5. Children's Privacy</h2>
-  <p>MathSurge is intended for users aged 13 and older and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has used the app and that data about them has been collected by our advertising partner, please contact us and we will help you request its deletion.</p>
+  <h2>7. Children's Privacy</h2>
+  <p>MathSurge is intended for users aged 13 and older and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has used the app and that data about them has been collected by our advertising or analytics partners, please contact us and we will help you request its deletion.</p>
 
-  <h2>6. Permissions Requested</h2>
-  <p>MathSurge requests only the permissions required for advertising and purchases:</p>
+  <h2>8. Permissions Requested</h2>
+  <p>MathSurge requests only the permissions required for advertising, usage statistics and purchases:</p>
   <ul>
-    <li><code>android.permission.INTERNET</code>: Used by the Google Mobile Ads SDK to request and display banner and interstitial ads.</li>
+    <li><code>android.permission.INTERNET</code>: Used to request and display ads, send the usage statistics in section 3 and download the "More apps" list.</li>
     <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Used to check whether the device has an active internet connection before requesting ads.</li>
     <li><code>com.google.android.gms.permission.AD_ID</code> (added by the Google Mobile Ads SDK): Lets the SDK read your device's advertising ID for ad delivery and measurement.</li>
     <li><code>com.android.vending.BILLING</code>: Lets you buy and restore MathSurge Pro through Google Play.</li>
@@ -101,10 +118,10 @@
   <p>Spoken questions in the Blindfold Audio arena use your device's built-in text-to-speech engine; the text spoken never leaves your device through MathSurge.</p>
   <p>MathSurge does <strong>not</strong> request access to your camera, microphone, contacts, location, or file storage.</p>
 
-  <h2>7. Changes to This Privacy Policy</h2>
+  <h2>9. Changes to This Privacy Policy</h2>
   <p>We may update this Privacy Policy from time to time. Any revisions will be reflected on this page with an updated "Last updated" date.</p>
 
-  <h2>8. Contact Us</h2>
+  <h2>10. Contact Us</h2>
   <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at
     <a href="mailto:androidpyus@gmail.com">androidpyus@gmail.com</a>.</p>
 </main>
